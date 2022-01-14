@@ -8,7 +8,6 @@ function send_handle() {
 	
 	if (name !== "" && phone !== "" && city !== "") {
 		var win = window.open(`https://wa.me/77470941770?text=Здравствуйте, меня зовут ${name}, я из города ${city}, прошу связаться со мной по номеру телефона - ${phone}`, '_blank');
+		window.location.reload();
 	}
-	
-	window.location.reload();
 }
