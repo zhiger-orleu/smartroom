@@ -12,7 +12,7 @@ function send() {
 
 function send_popup() {
 	
-	let name = document.getElementById("popup_form-city").value;
+	let name = document.getElementById("popup_form-name").value;
 	let phone = document.getElementById("popup_form-phone").value;
 	let city = document.getElementById("popup_form-city").value;
 	
